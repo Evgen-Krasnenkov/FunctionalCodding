@@ -5,6 +5,14 @@ import java.util.function.Function;
 import java.util.function.IntFunction;
 
 public class Main {
+    static void countDown(Integer x) {
+        if ( x < 0) {
+            System.out.println("Done");
+            return;
+        }
+        System.out.println(x);
+        countDown(x - 1);
+    }
 
     public static void main(String[] args) {
         NoArgFunction<NoArgFunction<String>> createGreetings = ()-> ()-> "Hello function!";
@@ -37,7 +45,18 @@ public class Main {
         System.out.println(myMath.combine(myMath::subtract, 5, 6));
 //        System.out.println(myMath.combine((x, y) -> x * y));
 
+// partial application
+        TriFunction<Integer, Integer, Integer, Integer> sumThreeInts
+                = (x, y, z) -> x + y + z;
+        Function<Integer, BiFunction<Integer, Integer, Integer>> addPartial
+                = (x) -> (y, z) -> sumThreeInts.apply(x, y, z);
+        Integer sumOfThree = addPartial.apply(5).apply(6, 7);
+        BiFunction<Integer, Integer, Function<Integer, Integer>> addTwoPartial
+                = (x, y) -> (z) -> sumThreeInts.apply(x, y, z);
+        Integer otherSumOfThree = addTwoPartial.apply(5, 6).apply(7);
 
+// Recursion
+        countDown(13);
         Function<Integer, Integer> triple = myMath::triple;
         IntFunction<Integer> tripleNew = myMath::triple;
         Integer apply = triple.apply(5);
