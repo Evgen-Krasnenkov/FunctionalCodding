@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/Ex_Files_Java_Memory_Management/Exercise Files/SupportingCode/BookCatalog/BookCatalog.iml" filepath="$USER_HOME$/Downloads/Ex_Files_Java_Memory_Management/Exercise Files/SupportingCode/BookCatalog/BookCatalog.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/Ex_Files_Java_Memory_Management/Exercise Files/SupportingCode/EscapingReferences/EscapingReferences.iml" filepath="$USER_HOME$/Downloads/Ex_Files_Java_Memory_Management/Exercise Files/SupportingCode/EscapingReferences/EscapingReferences.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/Ex_Files_Java_Memory_Management/Exercise Files/SupportingCode/GarbageCollection/GarbageCollection.iml" filepath="$USER_HOME$/Downloads/Ex_Files_Java_Memory_Management/Exercise Files/SupportingCode/GarbageCollection/GarbageCollection.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/Ex_Files_Java_Memory_Management/Exercise Files/SupportingCode/MemoryTest/MemoryTest.iml" filepath="$USER_HOME$/Downloads/Ex_Files_Java_Memory_Management/Exercise Files/SupportingCode/MemoryTest/MemoryTest.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/Ex_Files_Java_Memory_Management/Exercise Files/SupportingCode/StudentManager/Project.iml" filepath="$USER_HOME$/Downloads/Ex_Files_Java_Memory_Management/Exercise Files/SupportingCode/StudentManager/Project.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/Ex_Files_Java_Memory_Management/Exercise Files/SupportingCode/SoftLeaks/SoftLeaks.iml" filepath="$USER_HOME$/Downloads/Ex_Files_Java_Memory_Management/Exercise Files/SupportingCode/SoftLeaks/SoftLeaks.iml" />
+    </modules>
+  </component>
+</project>
