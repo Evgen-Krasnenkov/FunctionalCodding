@@ -38,7 +38,7 @@ public class Main {
 //        System.out.println(myMath.combine((x, y) -> x * y));
 
 
-        Function<Integer, Integer> triple = (x) -> myMath.triple(x);
+        Function<Integer, Integer> triple = myMath::triple;
         IntFunction<Integer> tripleNew = myMath::triple;
         Integer apply = triple.apply(5);
         Integer applyInt = tripleNew.apply(5);
